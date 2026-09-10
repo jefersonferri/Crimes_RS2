@@ -31,7 +31,7 @@ SQL and Power BI.
 
 Excel → Python ETL → PostgreSQL → SQL → Power BI
 
-ETL Challenge: The original source files available here [raw_data](raw_data/) contained different spreadsheet layouts and header positions across years. A Python/Pandas [crimes2](crimes2.py) pipeline was developed to automatically identify the header based on the "Municípios" field, normalize the monthly datasets and consolidate the historical data.
+ETL Challenge: The original source files available here [raw_data](raw_data/) contained different spreadsheet layouts and header positions across years. A Python/Pandas [crimes2](crimes2.py) pipeline was developed to automatically identify the header based on the "Municípios" field, normalize the monthly datasets and consolidate the historical data. After this consolidation, still there were some noise in the data that had to be removed manually inside the excel spreasheet. After the manual cleaning we have the final data [consolidated](crimes_RS_compilado.xlsx).
 
 ## Key Skills Demonstrated
 
