@@ -8,7 +8,7 @@ import unicodedata
 # CONFIGURAÇÕES
 # ============================================================
 
-pasta = Path(r"C:\Users\Jéferson\Documents\Crimes_RS")
+pasta = Path(r"C:\Users\Jéferson\Documents\Crimes_RS\raw_data")
 
 arquivo_saida = pasta / "crimes_RS_compilado.xlsx"
 

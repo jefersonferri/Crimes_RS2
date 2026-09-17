@@ -1,0 +1,1 @@
+CREATE DATABASE crimes_rs;

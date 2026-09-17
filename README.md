@@ -31,7 +31,7 @@ SQL and Power BI.
 
 Excel → Python ETL → PostgreSQL → SQL → Power BI
 
-ETL Challenge:  The data was downloaded from the Public Safety Secretariat of Rio Grande do Sul, Brazil [SSP/RS](https://www.ssp.rs.gov.br/indicadores-criminais). Because the original files had varying spreadsheet layouts and inconsistent header positions across different years, a Python/Pandas pipeline [crimes2.py](crimes2.py) was developed. This script automatically identifies the correct header row by locating the "Municípios" field, normalizes the monthly datasets, and consolidates the historical data. Following this automated consolidation, some remaining noise was manually cleaned using Excel. The final, cleaned dataset is available in [crimes_RS_compilado](crimes_RS_compilado.xlsx).
+ETL Challenge:  The data was downloaded from the Public Safety Secretariat of Rio Grande do Sul, Brazil [SSP/RS](https://www.ssp.rs.gov.br/indicadores-criminais). Because the original files had varying spreadsheet layouts and inconsistent header positions across different years, a Python/Pandas pipeline [crimes2.py](crimes2.py) was developed. This script automatically identifies the correct header row by locating the "Municípios" field, normalizes the monthly datasets, and consolidates the historical data. Following this automated consolidation, some remaining noise was manually cleaned using Excel. We also had 2 months that were not copied to the dataset that needed to be added manualy. The final, cleaned dataset is available in [crimes_RS_compilado](crimes_RS_compilado.xlsx).
 
 ## Key Skills Demonstrated
 
